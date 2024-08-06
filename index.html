@@ -1,15 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
- <h1>
-    About me:
- </h1>
-    I am a friendly person!
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Rockwell, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
 
+        .paper {
+            background-color: white;
+            width: 80%;
+            max-width: 800px;
+            min-height: 90%;
+            padding: 20px;
+            border: 2px solid #000;
+            /* Black border */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            /* Center text within each section */
+        }
+
+        h1 {
+            color: #4CAF50;
+            /* Green color for About Me */
+            background-color: #E8F5E9;
+            /* Light green highlight */
+            display: inline-block;
+            padding: 5px;
+            border-radius: 3px;
+        }
+
+        h2 {
+            background-color: #FFEBEE;
+            /* Light pink highlight */
+            display: inline-block;
+            padding: 5px;
+            border-radius: 3px;
+            margin-bottom: 20px;
+            /* Space between sections */
+        }
+
+        .section {
+            border-bottom: 1px solid #ddd;
+            /* Light gray border for sections */
+            padding: 10px 0;
+            margin-bottom: 20px;
+            width: 100%;
+            /* Make sections take full width of the "paper" */
+            text-align: left;
+            /* Align text within sections to the left */
+        }
+
+        .section ul {
+            list-style-position: inside;
+            /* Makes bullets align with the text */
+            padding-left: 20px;
+            /* Adds padding to center the bullets */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="paper">
+        <h1 class="about-me">About me</h1>
+        <div class="section">
+            <p> I am a person with a curious mind and I am
+            
+            focused on doing the things I find interesting
+            
+            and what I love. Especially about computers in
+            
+            particular, and recently since last year, I find
+            
+            myself looking into programming and how I can
+            
+            apply it to other things.</p>
+        </div>
+
+        <h2 class="favorites">Favorites</h2>
+        <div class="section">
+            <ul>
+                <li>Video Games</li>
+                <li>Piano and Guitar</li>
+                <li>Reading Novels</li>
+            </ul>
+        </div>
+
+        <h2 class="school-projects">School Projects</h2>
+        <div class="section">
+            <p>During our Quantitative Research course, we created an applicatiton prototype that aims
+            at the medical aid of the people. And we included an IMRaD documentation for our paper.</p>
+        </div>
+
+        <h2 class="talents">Talents</h2>
+        <div class="section">
+            <p>I am able to adapt decently quick to things that I'm interested about.</p>
+        </div>
+    </div>
 </body>
+
 </html>
