@@ -6,15 +6,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Socials and Contacts</title>
   <style>
-    /* Body Styles */
+  
     body {
-      font-family: Arial, sans-serif; /* Use a clean and readable font */
-      margin: 0;
-      padding: 20px; /* Add some padding for visual space */
-      background-color: #f5f5f5; /* Light gray background */
-    }
+            font-family: Rockwell, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
 
-    /* Social Media Section */
+
+        .topbar {
+            width: 100%;
+            background-color: #333;
+            overflow: hidden;
+            padding: 10px 0;
+        }
+
+        .topbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .topbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+  
     #social-media {
       text-align: center;
       margin: 20px 0;
@@ -23,39 +50,45 @@
     .social-links {
       display: flex;
       justify-content: center;
-      margin-bottom: 20px; /* Add spacing after social links */
+      margin-bottom: 20px; 
     }
 
     .social-links a {
-      margin: 0 15px; /* Adjust spacing between icons slightly */
+      margin: 0 15px; 
     }
 
     .social-links img {
-      width: 40px; /* Increase image size slightly */
+      width: 40px; 
       height: 40px;
     }
 
     /* Contact Info Section */
     .contact-info {
-      font-size: 16px; /* Increase font size for contact info */
-      color: #333; /* Darker text color */
+      font-size: 16px; 
+      color: #333; 
     }
 
     .contact-info p {
-      margin-bottom: 5px; /* Add some spacing between contact details */
+      margin-bottom: 5px; 
     }
 
-    /* Titles and Headings */
+    
     h2 {
-      font-size: 24px; /* Increase heading size */
-      font-weight: bold; /* Make the heading bolder */
-      color: #666; /* Darker heading color */
-      margin-bottom: 10px; /* Add some spacing after the heading */
+      font-size: 24px; 
+      font-weight: bold; 
+      color: #666; 
+      margin-bottom: 10px; 
     }
   </style>
 </head>
 
 <body>
+    <div class="topbar">
+        <a href="html\index.html">Main</a>
+        <a href="https://github.com/JPAURELIO1">Github Profile</a>
+        <a href="#school-projects">Skills</a>
+        <a href="html\education-GH\index.html">Socials and Contacts</a>
+    </div>
   <section id="social-media">
     
     <div class="contact-info">
@@ -66,13 +99,13 @@
       <h2>Social Media</h2>
     <div class="social-links">
       <a href="https://www.facebook.com/jaypiiieeeismee" target="_blank">
-        <img src="B:\fbimg.png" alt="Facebook">
+        <img src="socials\fbimg.png" alt="Facebook">
       </a>
       <a href="https://www.instagram.com/jaypieeee/" target="_blank">
-        <img src="B:\igimg.jfif" alt="Instagram">
+        <img src="socials\igimg.jfif" alt="Instagram">
       </a>
       <a href="https://idk" target="_blank">
-        <img src="B:\ximg.png" alt="Twitter">
+        <img src="socials\ximg.png" alt="Twitter">
       </a>
     </div>
    
