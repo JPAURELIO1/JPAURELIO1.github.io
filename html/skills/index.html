@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Learnings</title>
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif; 
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0; 
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+    }
+
+  
+    .topbar {
+      width: 100%;
+      background-color: #333;
+      overflow: hidden; 
+      padding: 10px 0;
+    }
+
+    .topbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .topbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+   
+    .lists-container {
+      margin-top: 10px;
+      width: 80%; 
+      background-color: #fff; 
+      padding: 20px;
+      border-radius: 5px; 
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+    }
+
+    .lists-title {
+      text-align: center;
+      font-size: 24px; 
+      margin-bottom: 10px; 
+      color: brown; 
+    }
+
+    .skills-list {
+      list-style: none; 
+      padding: 0;
+      margin: 0;
+    }
+
+    .skills-list li {
+      margin-bottom: 5px; 
+      font-size: 16px; 
+      color: #333; 
+    }
+
+    .tables-container {
+      margin-top: 30px; 
+      width: 80%;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .tables-title {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: brown; 
+    }
+
+    table {
+      width: 100%; 
+      border-collapse: collapse; 
+    }
+
+    th, td {
+      border: 1px solid #ddd; 
+      padding: 8px; 
+      text-align: left; 
+    }
+
+    th {
+      background-color: #f2f2f2; 
+      font-weight: bold; 
+    }
+
+    .forms-container {
+      margin-top: 30px;
+      width: 80%;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .forms-title {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: brown;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+    }
+
+    textarea {
+      height: 100px; 
+    }
+
+    button {
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+
+    .misc-container {
+      margin-top: 30px;
+      width: 80%;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .misc-title {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 10px;
+      color:brown;
+    }
+
+    .misc-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .misc-item {
+      width: 300px;
+      margin: 10px;
+      text-align: center;
+    }
+
+    .misc-image {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .misc-audio, .misc-video {
+      width: 100%;
+      height: auto;
+    }
+    footer {
+            width: 100%;
+            background-color: #333;
+            padding: 1px 0;
+            text-align: center;
+        }
+
+        .footer-content {
+            color: white;
+            font-size: 14px;
+        }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <a href="https://jpaurelio1.github.io/">Main</a>
+    <a href="https://github.com/JPAURELIO1">Github Profile</a>
+    <a href="html\skills\index.html">Learnings</a>
+    <a href="socials\index.html">Socials and Contacts</a>
+  </div>
+
+  <div class="lists-container">
+    <h2 class="lists-title">LISTS</h2>
+    <ul class="skills-list">
+      <li>Lists (e.g., Unordered Lists, Ordered Lists, Nested Lists)</li>
+      <li>These are examples of lists without numbers (no numbers):</li>
+      <ul>
+        <li>Chocolate</li>
+        <li>Ice cream</li>
+        <li>Candy</li>
+      </ul>
+      <li>Here's an example of an Ordered List (with numbers):</li>
+      <ol>
+        <li>Gold</li>
+        <li>Silver</li>
+        <li>Bronze</li>
+      </ol>
+    </ul>
+    <img src="learnings\Capture.PNG" alt="lists">
+  </div>
+
+  <div class="tables-container">
+    <h2 class="tables-title">TABLES</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Birthday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Justin Philip Aurelio</td>
+          <td>19</td>
+          <td>October 5, 2004</td>
+        </tr>
+        <tr>
+          <td>Samantha Aurelio</td>
+          <td>16</td>
+          <td>July 25, 2008</td>
+        </tr>
+      </tbody>
+    </table>
+    <center><img style="margin-top: 10px;" src="learnings\Capture2.PNG" alt=""></center>
+    
+  <p style="font-size: 20px; color: #333;">
+    This is an example of a normal table, that makes uses of 3 Table Headers, and below
+    are Table rows with a few examples. </p>
+    <br>
+    Though there are more examples of how tables can be made such as using colspans and rowspans.
+    
+    <table style="margin-top: 10px;">
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th colspan="2">Address</th>
+        </tr>
+        <tr>
+          <td>Justin Aurelio</td>
+          <td>19</td>
+          <td colspan="2">123 Samantha Homes</td>
+        </tr>
+        <tr>
+          <td>Samantha Aurelio</td>
+          <td>16</td>
+          <td>41 Bamboo Street</td>
+          <td>Apartment 2B</td>
+        </tr>
+      </table>
+
+      <p style="font-size: 20px; color: #333;">
+        Here in this example, we made use of colspans which merges 2 columns together 
+        depending on how we make use of them. It's pretty cool and helpful :D. </p>
+
+        <center><img style="margin-top: 10px;" src="learnings\Capture2.PNG" alt=""></center>    
+  </div>
+
+  <div class="forms-container">
+    <h2 class="forms-title">Forms</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+
+      <button type="submit">Submit</button>
+
+    </form>
+
+    <p style="font-size: 20px; color: #333;">
+       This is the final lesson for our prelims for WebDev which is creating Forms, the cool thing about 
+       this is you can't press submit without filling out everything first, which is obvious for being Forms. 
+       The example above was inspired from the Part 2 exam earlier where we created a simple login, 
+    registration, dashboard forms. I'll be showing the code below to give the details :). </p>
+    <center><img style="margin-top: 10px;" src="learnings\Capture4.PNG" alt=""></center>    
+  </div>
+
+  <div class="misc-container">
+    <h2 class="misc-title">Miscellaneous</h2>
+    <div class="misc-content">
+      <div class="misc-item">
+        <h3>Image</h3>
+        <img class="misc-image" src="learnings\Capture5.jpg" alt="Image 1">
+      </div>
+      <div class="misc-item">
+        <h3>Sound</h3>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0xaFw2zDYf1rIJWl2dXiSF?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+<div class="misc-item">
+    <h3>Video</h3>
+    <video width="320" height="240" controls>
+        <source src="learnings\Outlast Im Scared HB.mp4" type="video/mp4">
+        <source src="path/to/video.ogg" type="video/ogg">   
+      
+        <source src="path/to/video.webm" type="video/webm">   
+      
+        <p>Your browser does not support the video element.</p>
+      </video>
+</div>
+</div>
+</div>
+
+<footer>
+
+    <div class="footer-content">
+        <p>&copy; 2024 JPAURELIO1</p>
+    </div>
+    
+</footer>
+
+</body>
+</html>
