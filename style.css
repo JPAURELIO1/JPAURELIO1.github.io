@@ -438,7 +438,7 @@ footer {
     
 @media (min-width: 1024px) and (max-width: 1280px)  { 
     body{
-        transition: background-color 0.5s, color 0.5s; /* Smooth transition */
+        transition: background-color 0.5s, color 0.5s; 
     }
 }
  
