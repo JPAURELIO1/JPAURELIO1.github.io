@@ -7,11 +7,14 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+
   <div class="topbar">
     <a href="https://jpaurelio1.github.io/">Main</a>
     <a href="https://github.com/JPAURELIO1">Github Profile</a>
     <a href="https://jpaurelio1.github.io/html/skills/index.html">Learnings</a>
     <a href="https://jpaurelio1.github.io/html/socials/index.html">Socials and Contacts</a>
+    <img src="darkmode icon.png" alt="Toggle Dark Mode" class="dark-mode-button" onclick="toggleDarkMode()">
   </div>
 
   <div class="lists-container">
@@ -31,7 +34,7 @@
         <li>Bronze</li>
       </ol>
     </ul>
-    <img src="learnings\Capture.PNG" alt="lists">
+   <center> <img src="learnings\Capture.PNG" alt="lists"></center>
   </div>
 
   <div class="tables-container">
@@ -140,13 +143,23 @@
 </div>
 </div>
 
-<footer>
+<div class="apicall-container">
+  <h2 class="apicall-title">API CALL</h2>
 
-    <div class="footer-content">
-        <p>&copy; 2024 JPAURELIO1</p>
-    </div>
-    
-</footer>
+  <div>
+    <h3>Game Details</h3>
+    <p><strong>Title:</strong> <span id="game_title">--</span></p>
+    <p><strong>Platform:</strong> <span id="game_platform">--</span></p>
+    <p><strong>Release Date:</strong> <span id="game_release">--</span></p>
+    <p><strong>Description:</strong> <span id="game_description">--</span></p>
+    <p><strong>Rating:</strong> <span id="game_rating">--</span></p>
+    <p><strong>Cover:</strong> <span id="game_cover">--</div></p>
+  </div>
+  </div>
+
+
+<script src="games.js"></script>
+
 
 </body>
 </html>
